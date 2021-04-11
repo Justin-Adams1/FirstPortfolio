@@ -1,0 +1,45 @@
+body {
+    background-image:url(Images/background.jpg);
+    background-size:100%;
+    background-color: #000000;
+ }
+
+ .container {
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:12%;
+    border-radius:12px;
+    padding-left:0%;
+ }
+
+ p {
+    color:cornsilk;
+    margin: 0;
+    text-indent: 3ch;
+    font-size: 12px;
+  }
+
+.row{
+    background-color:#000000;
+    opacity: .95;
+    margin-left:2px;
+    margin-right:2px;
+    border-style: inset;
+    border-color:cornsilk;  
+    border-width:1px;
+
+}
+
+.pull-right {
+    margin: 0 0 0 auto;
+    }
+
+.btn-group {
+    padding-left:0%;
+    height:auto;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
