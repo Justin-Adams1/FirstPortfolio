@@ -24,9 +24,9 @@ body {
     opacity: .97;
     margin-left:2px;
     margin-right:2px;
-    border-style: inset;
+    border-style: ridge;
     border-color:white;  
-    border-width:2px;
+    border-width:5px;
 
 }
 
@@ -62,7 +62,7 @@ body {
     cursor: pointer;
     position: relative;
     z-index: 0;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .glow-on-hover:before {
@@ -73,7 +73,7 @@ body {
     left:-2px;
     background-size: 400%;
     z-index: -1;
-    filter: blur(5px);
+    filter: blur(3px);
     width: calc(100% + 4px);
     height: calc(100% + 4px);
     animation: glowing 8s infinite;
